@@ -1,0 +1,22 @@
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    filter: blur(3px);
+  -webkit-filter: blur(3px);
+    /* filter : grayscale(100%); */
+    min-width: 100%;
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+    z-index: -1;
+  }
+
+  video {
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }

@@ -1,0 +1,22 @@
+.img_adj_rec{
+    height:200px;
+    width: 200px;
+}
+
+.rec_header{
+    text-align: center;
+    font-size:25px;
+}
+
+.flex_report_adj{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family:"Open Sans"
+}
+
+.logout_adj{
+    margin-right: 60px;
+    margin-top : 10px;
+    cursor: pointer;
+}
